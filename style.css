@@ -1,0 +1,53 @@
+.prodotto{
+  border: solid;
+  width: 20%;
+  height: 380px;
+  position: relative;
+  display: inline-block;
+
+}
+.prodotto:hover .heart{
+  bottom:5%;
+  position: absolute;
+  right:45%;
+  font-size: 20px;
+  color:red;
+  display: block;
+
+}
+.tablet{
+  background-image: url(img/pd1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.smartphone{
+  background-image: url(img/pd2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cuffie{
+  background-image: url(img/pd3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.sconto{
+  width: 30px;
+  height:20px;
+  position: absolute;
+  top:0;
+  right:0;
+}
+.trenta{
+  background-color: green;
+  font-size: 14px;
+  text-align: center;
+}
+.heart{
+  display: none;
+}
+.cinque{
+  font-size: 14px;
+  text-align: center;
+  background-color: red;
+}
